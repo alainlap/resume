@@ -1,0 +1,56 @@
+body {
+    margin:0;
+    padding:0;
+    border:0;           /* This removes the border around the viewport in old versions of IE */
+    width:100%;
+    background:#fff;
+    min-width:600px;        /* Minimum width of layout - remove line if not required */
+                    /* The min-width property does not work in old versions of Internet Explorer */
+    font-size:90%;
+}
+
+
+div {
+    border-radius:0px;
+}
+
+
+#wrapper {
+    background-color:yellow;
+
+    height:100%;
+    width:100%;
+    min-height:100%;
+    min-width:100%;
+
+    margin:auto;
+    padding:0px;
+
+    float:left;
+    position:relative;
+}
+
+.left
+.middle
+.right {
+
+    float:left;
+    position:relative;
+    padding:0 0 1em 0;
+    overflow:hidden;
+}
+
+
+.left {
+    background-color:#FFC573;
+}
+
+
+.middle {
+    background-color:orange;
+    right:25%;
+}
+
+.right {
+    background-color:#FF9500;
+}
